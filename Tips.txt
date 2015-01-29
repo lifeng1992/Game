@@ -8,3 +8,7 @@ IDNO 				No
 IDOK 				OK
 IDRETRY				Retry
 IDYES				Yes
+
+
+预定义的Windows类
+有许多预定义的Windows类，如按钮、列表框、文件选择器等等。一个Windows类就是Windows能够操作的一个窗口类型的描述。控制Windows类信息的数据结构有两个:WNDCLASS和WNDCLASSEX，我们应当使用新的扩展版WNDCLASSEX.
