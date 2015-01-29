@@ -1,0 +1,10 @@
+MessageBox的返回值
+谁关心MessageBox()函数的返回值呢？通常情况下，如果信息框是yes/no提问之类的情况的话，就希望知道这个返回值。以下是可能的返回值：
+值 					选择的按钮
+IDABORT				Abort
+IDCANCEL			Cancel
+IDIGNORE			Ignore
+IDNO 				No
+IDOK 				OK
+IDRETRY				Retry
+IDYES				Yes
