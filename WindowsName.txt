@@ -1,0 +1,17 @@
+前缀		数据类型
+c			Char字符
+by			BYTE字节(无符号字符)
+n			Short短整数和整数
+i			int整数
+x，y		Short短整数(通常用于x坐标和y坐标)
+cx，cy		Short短整数(通常用于表示x和y的长度；c表示计数)
+b 			BOOL(整数)
+w			UNIT(无符号整数)和WORD(无符号字)
+l			LONG(长整数)
+dw			DWORD(无符号长整数)
+fn			函数指针
+s 			字符串
+sz，str 	以一个字节的0(空值)终止的字符串
+lp			32位指针
+h			编号(常用于表示Windows对象)
+msg			消息
