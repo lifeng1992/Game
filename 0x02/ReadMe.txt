@@ -1,0 +1,7 @@
+实用的Windows程序
+要创建一个完全实用的Windows程序，只要进行下列工作:
+1.创建一个Windows类
+2.创建一个事件句柄或WinProc
+3.用Windows注册Windows类
+4.用前面创建的Windows类创建一个窗口
+5.创建一个能够从事件句柄获得向事件句柄传递Windows信息的主事件循环
