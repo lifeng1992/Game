@@ -1,0 +1,15 @@
+Windows消息
+值					说明
+WM_ACTIVATE			当窗口被激活或者成为一个焦点时传递
+WM_CLOSE			当窗口被关闭时传递
+WM_CREATE			当窗口第一次创建时传递
+WM_DESTROY			当窗口可能要被破坏时传递
+WM_MOVE 			当窗口移动时传递
+WM_MOUSEMOVE		当鼠标移动时传递
+WM_KEYUP			当松开一个键时传递
+WM_KEYDOWN			当按下一个键时传递
+WM_TIMER			当发生定时程序事件时传递
+WM_USER				允许传递消息
+WM_PAINT			当一个窗口需重画时传递
+WM_QUIT				当Windows应用程序最后结束时传递
+WM_SIZE				当一个窗口改变大小时传递
