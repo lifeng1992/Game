@@ -1,0 +1,5 @@
+#include "resource.h"
+
+QQQG		WAVE	QQQG.wav
+
+ID_MUSIC	WAVE	CFWSLWDL.wav
