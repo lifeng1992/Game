@@ -23,3 +23,10 @@ Windows可以使用ASCII文本字符串或者是整数ID来表示资源，在大
 
 PlaySound函数链接错误
 #pragma comment(lib, "winmm.lib")
+
+
+菜单项被选中
+选中一个菜单项后放开鼠标，会将一个WM_COMMAND消息传递到与该菜单关联的窗口的WinProc()函数中。指定的菜单项ID和其他各种数据存储在该消息的wParam和lParam中。如下所示:
+Msg 		--	WM_COMMAND
+lParam		--	发出消息的窗口句柄
+wParam		--	选中的菜单项的ID
