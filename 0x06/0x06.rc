@@ -1,0 +1,19 @@
+#include "resource.h"
+
+MAIN_MENU MENU DISCARDABLE
+{
+	POPUP "&File"
+	{
+		MENUITEM "&Open",	MENU_FILE_ID_OPEN
+		MENUITEM "&Close",	MENU_FILE_ID_CLOSE
+		MENUITEM "&Save",	MENU_FILE_ID_SAVE
+		MENUITEM "&Exit",	MENU_FILE_ID_EXIT
+
+	}
+
+	POPUP "&Help"
+	{
+		MENUITEM "About",	MENU_HELP_ID_ABOUT
+
+	}
+}
