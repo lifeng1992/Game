@@ -1,0 +1,17 @@
+0x01
+最简单的Windows程序，仅通过对话框输出"Hello World"。
+
+0x02
+A Simple Complete Windows Program
+
+0x03
+A Simple Real Time Event Loop Windows Program
+
+0x04
+使用同一个窗口类创建两个窗口，仅当两个窗口都关闭后，应用程序才结束运行。
+
+0x05
+使用PlaySound函数播放.WAV声音，采用字符串和整数ID两种方式来装载音乐资源。
+
+0x06
+A Simple Program About How To Create Menu Item
